@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY APP</title>
+</head>
+<body>
+ <h1>Unnamed Project</h1> 
+<!--<ul class="library">
+  <% for(var i=0; i<libaries.length; i++) {%>
+    <li class="libraries">
+      <span><%= libraries[i].name %></span>
+      <span><%= libraries[i].library %></span>
+    </li>
+  <% } %>
+  </ul>-->
+
+  <form action="/library" method="POST">
+    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="library" name="library">
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
