@@ -39,9 +39,9 @@ Once the project moves into development, the press release can be used as a touc
 
 ## How does it solve that problem? ##
  
-  > We have eliminated the need for small talk. We suppose that a match of a certain percentage of books could eliminate the need for a bunch of flirty, creepy banter. 
+  We have eliminated the need for small talk. We suppose that a match of a certain percentage of books could eliminate the need for a bunch of flirty, creepy banter. 
 
-  >If for some ungodly reason an attraction doesn't happen, the user will have probably made a good friend or even met a kindred sprit. Isn't that the only real currency in life?
+  If for some ungodly reason an attraction doesn't happen, the user will have probably made a good friend or even met a kindred sprit. Isn't that the only real currency in life?
 
 ## Quotes ##
   > *"People have fallen in love over less."* - T. Torres, Founder and CEO
