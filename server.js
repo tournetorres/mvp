@@ -3,6 +3,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const MongoClient = require('mongodb').MongoClient;
+const rp = require('request-promise');
+
 
 const mongouri = process.env.MONGOURI || 'mongodb://localhost:27017';
 console.log(mongouri);
@@ -35,8 +37,6 @@ MongoClient.connect(mongouri, (err, database) => {
     console.log(res.body);
   });
 
-  app.set('view engine', 'ejs');
-
   app.get('/', (req, res) => {
     db.collection('library').find().toArray((err, result) => {
       if (err) return console.log(err);
@@ -45,3 +45,23 @@ MongoClient.connect(mongouri, (err, database) => {
   });
 });
 
+// //////////////////
+
+const options = {
+  uri: 'https://www.googleapis.com/books/v1/volumes?',
+  qs: {
+    KEY: process.env.API_KEY, // -> uri + '?access_token=xxxxx%20xxxxx'
+  },
+  headers: {
+    'User-Agent': 'Request-Promise',
+  },
+  json: true, // Automatically parses the JSON string in the response
+};
+
+rp(options)
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((err) => {
+    // API call failed...
+  });

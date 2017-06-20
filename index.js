@@ -1,10 +1,9 @@
-'use strict';
 
 // create the module and name it scotchApp
 angular.module('bookd8', ['ngRoute'])
 
 // create the controller and inject Angular's $scope
-.controller('mainController', ($scope) => {
+  .controller('mainController', ($scope) => {
   // create a message to display in our view
     $scope.message = 'Everyone come and see how good I look!';
   })
@@ -38,10 +37,10 @@ angular.module('bookd8', ['ngRoute'])
     $scope.message = 'Everyone come and see how good I look!';
   })
   .controller('aboutController', ($scope) => {
-  $scope.message = 'Look! I am an about page.';
-})
+    $scope.message = 'Look! I am an about page.';
+  })
 
-.controller('contactController', ($scope) => {
-  $scope.message = 'Contact us! JK. This is just a demo.';
-});
+  .controller('contactController', ($scope) => {
+    $scope.message = 'Contact us! JK. This is just a demo.';
+  });
 
