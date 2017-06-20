@@ -32,6 +32,7 @@ MongoClient.connect(mongouri, (err, database) => {
 
   app.get('/', (req, res) => {
     const cursor = db.collection('library').find();
+    console.log(res.body);
   });
 
   app.set('view engine', 'ejs');
