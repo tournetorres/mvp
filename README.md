@@ -16,14 +16,13 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > bookD8
+## bookD8 ##
 
-## Sub-Heading ##
-  > This product is for: single people who get really excited taking about their favorite books, people who pride themselves on the extensivity of their book collection.
+## Who is this app for? ##
+  This app is for: single people who get really excited talking about their favorite books and/or people who pride themselves on the extensivity of their book collection.
 
 ## Summary ##
-  > Through a gorgeous interface and the GoodReads API, users will manually add ALL THE BOOKS IN THEIR HOUSE, OFFICE, STUDIO (the more books, the better the match) to this collection - "library", and hope to get a match:
+  Through a gorgeous interface and the GoodReads API, users will manually add ALL THE BOOKS IN THEIR HOUSE, OFFICE, STUDIO (the more books, the better the match) to this collection - "library", and hope to get a match:
 
   * Romantic and Platonic matches are equivalent. User decides what he/she/they are looking for going forward with a match. The user can set whether or not he/she/they would like to be considered for Romantic relationship, Platonic relationship or both. 
 
@@ -37,23 +36,23 @@ Once the project moves into development, the press release can be used as a touc
 
   * Option to message to make plans, set book club date, etc, etc.
   
-## Problem ##
-  > Dates suck - finding friends sucks. Some of us don't want to socialize in a bar to meet somebody we don't even like the next day. Think hard. If one of the top 10 memories of your life was finally finishing Ulysses, or The Devil Wears Prada, or the x86 Assembly Language Reference Manual, this app is for you.
+## What problem does it solve? ##
+   Dates suck - finding friends sucks. Some of us don't want to socialize in a bar to meet somebody we don't even like the next day. Think hard. If one of the top 10 memories of your life was finally finishing Ulysses, or The Devil Wears Prada, or the x86 Assembly Language Reference Manual, this app is for you.
 
-## Solution ##
+## How does it solve that problem? ##
  
   > We have eliminated the need for small talk. We suppose that a match of a certain percentage of books could eliminate the need for a bunch of flirty, creepy banter. 
 
   >If for some ungodly reason an attraction doesn't happen, the user will have probably made a good friend or even met a kindred sprit. Isn't that the only real currency in life?
 
-## Quote from You ##
+## Quotes ##
   > *"People have fallen in love over less."* - T. Torres, Founder and CEO
 
 ## How to Get Started ##
-  > Click over to http://www.bookD8.com to get signed up and matched today!
+  Click over to http://www.bookD8.com to get signed up and matched today!
 
-## Customer Quote ##
-  > *"I met my husband AND my maid of honor on bookD8, and NOW I'm PREGNANT! THANKS bookD8!"* - Marci K., Albuquerque
+## Testimonials ##
+  > *"I met my husband AND my maid of honor on bookD8, and NOW I'm PREGNANT! THANKS, bookD8!"* - Marci K., Albuquerque
 
-## Closing and Call to Action ##
-  > Questions, Comments, Concerns? If you didn't get a match, hold on partner! We're aquiring new users through illegal data dumps every day! Keep checking your email for a match or add new books you never read but wish you had!
+## In closing... ##
+  Questions, Comments, Concerns? If you didn't get a match, hold on partner! We're aquiring new users through illegal data dumps every day! Keep checking your email for a match or add new books you never read but wish you had!
