@@ -5,5 +5,8 @@
     ],
     "rules": {
         "no-console": ["warn", {"allow": ["warn", "error"] }]  
-    }
+    },
+    "extends": ["eslint:recommended", "angular"]
 }
+    
+    
