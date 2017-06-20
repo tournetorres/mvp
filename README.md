@@ -16,8 +16,6 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## bookD8 ##
-
 ## Who is this app for? ##
   This app is for: single people who get really excited talking about their favorite books and/or people who pride themselves on the extensivity of their book collection.
 
@@ -27,8 +25,8 @@ Once the project moves into development, the press release can be used as a touc
   * Romantic and Platonic matches are equivalent. User decides what he/she/they are looking for going forward with a match. The user can set whether or not he/she/they would like to be considered for Romantic relationship, Platonic relationship or both. 
 
   * Matching algorithm will look for percentage of matched titles
-  * * Percentage of Matched Authors
-  * * Percentage of Matched Genres
+    * Percentage of Matched Authors
+    * Percentage of Matched Genres
 
   * Library should set precedece for 'TOP 20' within collection - matchers carry higher weight.
 
