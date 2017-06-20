@@ -11,8 +11,7 @@ let db;
 MongoClient.connect('mongodb://tourne:mvp2017@ds115411.mlab.com:15411/mvp', (err, database) => {
   if (err) console.error(err);
   db = database;
-  app.listen(process.env.PORT || 3000, () => `listening on ${process.env.PORT}`,
-  );
+  app.listen(process.env.PORT || 3000, () => `listening on ${process.env.PORT}`);
 
   app.use(bodyParser.urlencoded({ extended: true }));
 
