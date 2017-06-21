@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bookd8">
+
+  <head>
+    <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TODO: ue ngbind -->
+    <title>samepage</title>
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
+      <link href="jumbotron-narrow.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+
+      <script type="text/javascript" src="app.js"></script>
+  </head>
+
+<body ng-controller="BookController">
+
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Login</a></li>
+            <li role="presentation"><a href="#">Signup</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">samepage</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1 id="head">samepage</h1>
+
+        <form class="jumbotron" ng-submit="fetch(search)">
+          <input class="input-large" type="text" ng-model="search" value="">
+          <input class="btn" type="submit">
+        </form>
+      </div>
+
+      <div class="row marketing">
+
+        <div class="col-lg-6" result="result" ng-repeat="result in results track by $index"><img ng-click="saveBook(result)" src="{{result.volumeInfo.imageLinks.thumbnail}}"/>
+            <h4>{{result.volumeInfo.title}}</h4>
+          <p>{{result.volumeInfo.authors[0]}}</p>
+        </div>
+
+    </div>
+      <footer class="footer">
+        <p>&copy; 2017 Samepage, Inc.</p>
+      </footer>
+
+<!-- /container -->
+</div>
+  </body>
+</html>
+
+
+  <!-- <body ng-controller="BookController">
+    <form class="" ng-submit="fetch(search)">
+      <input type="text" ng-model="search" value="">
+      <input type="submit">
+    </form>
+    <table>
+  <tr result="result" ng-repeat="result in results track by $index">
+    <td>  <img style="float:left" ng-click="saveBook(result)" src="{{result.volumeInfo.imageLinks.thumbnail}}"/></td>
+    <td>{{result.volumeInfo.title}}</td>
+  </tr>
+</table> -->
