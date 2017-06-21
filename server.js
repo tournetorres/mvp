@@ -27,7 +27,6 @@ MongoClient.connect(mongouri, (err, database) => {
 
 app.post('/library', (req, res) => {
   db.collection('library').save(req.body, (err, results) => {
-    console.log(req.body);
     if (err) res.send(err);
     console.warn('saved to database');
     res.send(results);
@@ -35,6 +34,15 @@ app.post('/library', (req, res) => {
   // console.log(req.body);
 });
 
+
+app.delete('/library', (req, res) => {
+  db.collection('library').remove(req.body, (err, results) => {
+    if (err) res.send(err);
+    console.warn('removed from database');
+    res.send(results);
+  });
+  // console.log(req.body);
+});
 
 // route stuff
 // app.post('/library', (req, res) => {
